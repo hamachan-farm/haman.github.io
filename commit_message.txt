@@ -1,1 +1,1 @@
-Fix floating images display and animation
+Adjust floating image positions downwards
