@@ -1,1 +1,1 @@
-Adjust floating image positions downwards
+Move online shop link to about section

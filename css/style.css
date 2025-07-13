@@ -236,38 +236,38 @@ footer a:hover {
 }
 
 .floating-image-1 {
-  top: 20%;
-  left: 5%;
+  top: 60%;
+  left: 10%;
   animation-delay: 0s;
 }
 
 .floating-image-2 {
-  top: 40%;
-  left: 80%;
+  top: 75%;
+  left: 85%;
   animation-delay: 1s;
 }
 
 .floating-image-3 {
-  top: 70%;
-  left: 15%;
+  top: 50%;
+  left: 5%;
   animation-delay: 2s;
 }
 
 .floating-image-4 {
-  top: 90%;
-  left: 70%;
+  top: 80%;
+  left: 90%;
   animation-delay: 3s;
 }
 
 .floating-image-5 {
-  top: 55%;
-  left: 40%;
+  top: 65%;
+  left: 20%;
   animation-delay: 4s;
 }
 
 .floating-image-6 {
-  top: 30%;
-  left: 50%;
+  top: 70%;
+  left: 75%;
   animation-delay: 5s;
 }
 
