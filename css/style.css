@@ -121,6 +121,32 @@ footer a:hover {
   border-radius: 8px;
 }
 
+/* トップ画像を中央寄せ＆リサイズ（hero-small） */
+.hero-small{
+  display:block;          /* インライン画像をブロック化 */
+  margin:12px auto;       /* 左右 auto で水平センター */
+  max-width:300px;        /* 好きな幅に調整。例: 300px */
+  width:80%;              /* スマホでもはみ出さないよう保険 */
+  height:auto;            /* 比率を保ったまま縮小 */
+}
+
+/* キャッチコピー専用（tagline） */
+.tagline{
+  font-size:0.95rem;
+  line-height:1.5;
+  text-align:center;
+  margin:8px 0 18px;
+-  color:#555;          /* ← ここを消して… */
++  color:rgba(255,255,255,0.9);  /* 白に近い明るさへ */
+}
+
+/* スマホ時に文字が大き過ぎる場合 ↓ をいじる */
+@media screen and (max-width:600px){
+  .tagline{
+    font-size:0.9rem;
+  }
+}
+
 /* スマホ対応 */
 @media screen and (max-width: 600px) {
   header h1 {
@@ -139,16 +165,22 @@ footer a:hover {
 }
 
 /* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
+.slideshow-container{
+  width: 50%;          /* ←好みで調整 */
+  max-width: 500px;    /* PC での上限 */
+  margin: 20px auto;   /* 中央寄せ */
   position: relative;
-  margin: auto;
   text-align: center;
 }
 
 /* Hide the images by default */
-.mySlides {
+.mySlides{
   display: none;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.15);
 }
 
 /* Fading animation */
