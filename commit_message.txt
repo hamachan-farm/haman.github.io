@@ -1,1 +1,1 @@
-Move floating images above online shop link
+Set header background image

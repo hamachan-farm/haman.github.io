@@ -29,10 +29,10 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   color: white;
-  padding: 2.5rem 1rem;
+  padding: 1rem 1rem; /* 変更 */
   text-align: center;
-  position: relative; /* 追加 */
-  overflow: hidden; /* 追加 */
+  position: relative;
+  overflow: hidden;
 }
 
 header h1 {
