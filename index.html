@@ -1,65 +1,78 @@
-body {
-  font-family: 'Arial', sans-serif;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
-  background: #f4f4f4;
-  color: #333;
-}
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>はまちゃん農園</title>
+  <link rel="stylesheet" href="style.css" />
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</head>
+<body>
+  <header>
+    <h1>はまちゃん農園</h1>
+  </header>
 
-header {
-  background: #5fa95f;
-  color: white;
-  padding: 1rem;
-  text-align: center;
-}
+  <!-- スライド画像 -->
+  <section class="slider">
+    <div class="slides">
+      <img src="images/IMG_20240708_145900.jpg" alt="スライド1" />
+      <img src="images/IMG_20240707_085825.jpg" alt="スライド2" />
+      <img src="images/IMG_20240718_1748452.jpg" alt="スライド3" />
+      <img src="images/IMG_20240719_1327472.jpg" alt="スライド4" />
+      <img src="images/IMG_20241204_1529112.jpg" alt="スライド5" />
+    </div>
+  </section>
 
-h1, h2, h3 {
-  margin-top: 0;
-}
+  <!-- 野菜紹介 -->
+  <section>
+    <h2>竹田市荻町の野菜</h2>
+    <p>大分県竹田市荻町は日本百名山“祖母山”の麓に位置します。
+この地域は竹田湧水群が日本名水百選に選ばれるほど豊かな自然と清らかな水に恵まれた場所です。
+標高約500メートルの高地に位置し、昼夜の寒暖差が大きいことで、作物に独特の甘みと香りが引き出されます。
+祖母山の自然の恵みと湧水の力で育てた、こだわりの野菜をぜひ御賞味ください。</p>
+  </section>
 
-section {
-  padding: 1rem;
-  background: white;
-  margin: 1rem auto;
-  max-width: 800px;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
+  <!-- 栽培野菜 -->
+  <section>
+    <h2>栽培野菜</h2>
+    <ul>
+      <li>トウモロコシ</li>
+      <li>ミニトマト</li>
+      <li>白ネギ</li>
+      <li>ブルーベリー</li>
+      <li>その他多数</li>
+    </ul>
+  </section>
 
-footer {
-  padding: 1rem;
-  background: #eee;
-  text-align: center;
-}
+  <!-- お知らせ -->
+  <section>
+    <h2>お知らせ</h2>
+    <div class="news">
+      <ul>
+        <li><strong>2025/07/13:</strong> トウモロコシ予約販売開始しました！</li>
+        <li><strong>2025/07/13:</strong> ホームページを作成しました。</li>
+      </ul>
+    </div>
+  </section>
 
-/* 画像スライダー */
-.slider {
-  max-width: 800px;
-  margin: 0 auto;
-  overflow: hidden;
-}
+  <!-- Twitter活動埋め込み -->
+  <section>
+    <h2>日々の活動</h2>
+    <a class="twitter-timeline" data-chrome="noheader nofooter noborders transparent" data-tweet-limit="2" href="https://twitter.com/hamachan_farm?ref_src=twsrc%5Etfw">Tweets by hamachan_farm</a>
+  </section>
 
-.slides {
-  display: flex;
-  animation: slide 12s infinite;
-}
+  <!-- オンラインサイトリンク -->
+  <section>
+    <h2>オンラインサイト</h2>
+    <p><a href="https://hamachan.shopselect.net/" target="_blank">オンラインショップはこちら</a></p>
+  </section>
 
-.slides img {
-  width: 100%;
-  flex-shrink: 0;
-}
-
-@keyframes slide {
-  0% { transform: translateX(0); }
-  33% { transform: translateX(-100%); }
-  66% { transform: translateX(-200%); }
-  100% { transform: translateX(0); }
-}
-
-/* お知らせ欄 スクロール対応 */
-.news {
-  max-height: 150px;
-  overflow-y: auto;
-  padding-right: 10px;
-}
+  <!-- 連絡先 -->
+  <footer>
+    <h3>お問い合わせ</h3>
+    <p>住所：大分県竹田市荻町恵良原788-1</p>
+    <p>メール：<a href="mailto:codomootona3151985@gmail.com">codomootona3151985@gmail.com</a></p>
+    <p>電話：<a href="tel:08019270869">080-1927-0869</a></p>
+  </footer>
+</body>
+</html>
