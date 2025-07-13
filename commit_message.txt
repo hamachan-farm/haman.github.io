@@ -1,1 +1,1 @@
-Adjust floating image positions to bottom and sides
+Arrange floating images horizontally below shop link
