@@ -136,8 +136,7 @@ footer a:hover {
   line-height:1.5;
   text-align:center;
   margin:8px 0 18px;
--  color:#555;          /* ← ここを消して… */
-+  color:rgba(255,255,255,0.9);  /* 白に近い明るさへ */
+  color:rgba(255,255,255,0.9);  /* 白に近い明るさへ */
 }
 
 /* スマホ時に文字が大き過ぎる場合 ↓ をいじる */
@@ -210,4 +209,74 @@ footer a:hover {
 
 .news-list p:last-child {
   margin-bottom: 0;
+}
+
+/* Floating Images */
+.floating-images-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; /* Allow clicks through the container */
+  overflow: hidden;
+  z-index: -2;
+}
+
+.floating-images-container img {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  animation: float 6s ease-in-out infinite;
+  opacity: 0.6;
+}
+
+.floating-image-1 {
+  top: 10%;
+  left: 5%;
+  animation-delay: 0s;
+}
+
+.floating-image-2 {
+  top: 30%;
+  left: 80%;
+  animation-delay: 1s;
+}
+
+.floating-image-3 {
+  top: 60%;
+  left: 15%;
+  animation-delay: 2s;
+}
+
+.floating-image-4 {
+  top: 80%;
+  left: 70%;
+  animation-delay: 3s;
+}
+
+.floating-image-5 {
+  top: 45%;
+  left: 40%;
+  animation-delay: 4s;
+}
+
+.floating-image-6 {
+  top: 20%;
+  left: 50%;
+  animation-delay: 5s;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
