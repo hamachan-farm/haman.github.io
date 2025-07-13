@@ -200,7 +200,7 @@ footer a:hover {
 
 /* お知らせ欄のスタイル */
 .news-list {
-  max-height: 200px; /* 適宜調整 */
+  max-height: 100px; /* 適宜調整 */
   overflow-y: scroll;
   border: 1px solid #e9ecef;
   padding: 1rem;
