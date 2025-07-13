@@ -28,6 +28,8 @@ header {
   color: white;
   padding: 2.5rem 1rem;
   text-align: center;
+  position: relative; /* 追加 */
+  overflow: hidden; /* 追加 */
 }
 
 header h1 {
@@ -220,7 +222,7 @@ footer a:hover {
   height: 100%;
   pointer-events: none; /* Allow clicks through the container */
   overflow: hidden;
-  z-index: -2;
+  z-index: 0; /* 変更 */
 }
 
 .floating-images-container img {
