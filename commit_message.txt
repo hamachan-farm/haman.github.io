@@ -1,1 +1,1 @@
-Arrange floating images horizontally below shop link
+Move floating images above online shop link

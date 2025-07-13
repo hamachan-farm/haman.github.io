@@ -24,7 +24,10 @@ body::before {
 
 /* ヘッダー */
 header {
-  background-color: #1A535C;
+  background-image: url('../images/IMG_20240821_074611.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: white;
   padding: 2.5rem 1rem;
   text-align: center;
