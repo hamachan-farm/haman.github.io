@@ -161,3 +161,21 @@ footer a:hover {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+/* お知らせ欄のスタイル */
+.news-list {
+  max-height: 200px; /* 適宜調整 */
+  overflow-y: scroll;
+  border: 1px solid #e9ecef;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.news-list p {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+.news-list p:last-child {
+  margin-bottom: 0;
+}
